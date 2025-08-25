@@ -12,7 +12,7 @@ const app=express();
 
 const _dirname=path.resolve();
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://itsme-tatz.onrender.com/",
     Credential:true
 }
 
