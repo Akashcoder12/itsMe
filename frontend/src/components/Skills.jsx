@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from 'Framer-motion';
+import {motion} from 'framer-motion';
 
 const skills = [
   { name: "HTML", level: "90%" },
