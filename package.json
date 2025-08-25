@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.js", 
   "scripts": {
     "dev": "nodemon backend/server.js",
     "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start":"nodemon backend/index.js"
+    "start":"nodemon backend/server.js"
   },
   "keywords": [],
   "author": "",
