@@ -21,6 +21,7 @@ export default function Contact() {
      if(res){
          setStatus("Message sent successfully");
          setForm({name:"",email:"",message:""});
+         alert("thankyou for contacting,I will respond very soon");
      }
      else{
          setStatus("Failed to send");
