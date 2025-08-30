@@ -26,7 +26,16 @@ export default function Projects() {
                     >
                     <img src={p.image} alt={p.title} className='rounded-lg mb-4'></img>
                     <h3 className='text-xl font-semibold'>{p.title}</h3>
-                    <p className='text-gray-600'>{p.description}</p>
+                    
+                    <p className='text-gray-600'><b>description:</b>{p.description}</p>
+
+                    <p className='text-gray-600'><b>Tech Stack:</b>
+                     {p.tech_stacks}
+                    </p>
+                    
+                    <p className='text-gray-600'><b>Features:</b>
+                    {p.features}</p>
+                    
                     <div className='mt-3 space-x-3'>
                          <a href={p.github} className='text-blue-600'>Github</a>
                          <a href={p.demo} className='text-green-600'>Demo</a>
