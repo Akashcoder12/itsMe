@@ -42,18 +42,6 @@ BookNest/
 │── README.md
 
 ```
-## Screenshots
-
-🔍 Home Page
-![App Screenshot](https://i.ibb.co/Kj85CnCh/Screenshot-2025-09-11-190613.png)
-
-
-📚 Book Cards
-![App Screenshot](https://i.ibb.co/qL5zkPGN/Screenshot-2025-09-11-190826.png)
-
-
-
-
 ## Demo
 
 🚀 Live Demo
